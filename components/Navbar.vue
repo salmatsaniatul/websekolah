@@ -71,11 +71,39 @@
               </li>
             </ul>
           </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Kesiswaan
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <nuxt-link
+                  to="/kesiswaan/organisasi"
+                  class="dropdown-item"
+                  >Organisasi</nuxt-link
+                >
+              </li>
+              <li>
+                <nuxt-link
+                  to="/kesiswaan/eskul"
+                  class="dropdown-item"
+                  >Ekstrakurikuler</nuxt-link
+                >
+              </li>
+            </ul>
+          </li>
+
           <li class="nav-item">
             <nuxt-link
-              to="/eskul"
+              to="/Prestasi"
               class="nav-link"
-              >Ekstrakurikuler</nuxt-link
+              >Prestasi</nuxt-link
             >
           </li>
           <li class="nav-item">

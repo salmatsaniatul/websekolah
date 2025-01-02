@@ -39,6 +39,18 @@
   </div>
 </template>
 
+<script setup>
+useHead({
+  title: 'Visi Misi',
+  meta: [
+    {
+      name: 'description',
+      content: 'halaman Visi Misi',
+    },
+  ],
+});
+</script>
+
 <style scoped>
 .container-fluid {
   margin-top: 95px;

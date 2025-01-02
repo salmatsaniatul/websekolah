@@ -27,6 +27,18 @@
   </div>
 </template>
 
+<script setup>
+useHead({
+  title: 'Sejarah',
+  meta: [
+    {
+      name: 'description',
+      content: 'halaman sejarah',
+    },
+  ],
+});
+</script>
+
 <style scoped>
 .container-fluid {
   margin-top: 95px;

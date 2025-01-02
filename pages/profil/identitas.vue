@@ -54,55 +54,97 @@
     <div class="card shadow mt-5 m-5">
       <table class="table m-3">
         <tbody>
-          <td class="fw-semibold">a. Nama Sekolah</td>
-          <td>:</td>
-          <td>SMK Negeri 4 Tasikmalaya</td>
-        </tbody>
-        <tbody>
-          <td class="fw-semibold">b. NPSN</td>
-          <td>:</td>
-          <td>20276063</td>
-        </tbody>
-        <tbody>
-          <td class="fw-semibold">c. Nomor Statistik Sekolah</td>
-          <td>:</td>
-          <td>401327810004</td>
-        </tbody>
-        <tbody>
-          <td class="fw-semibold">d. Alamat</td>
-          <td>:</td>
-          <td>Jl.Depok RT 02 RW 05, Kel.Sukamenak, Kec.Purbaratu, Kota Tasikmalaya, Provinsi Jawa Barat</td>
-        </tbody>
-        <tbody>
-          <td class="fw-semibold">e. Tahun Pendirian</td>
-          <td>:</td>
-          <td>Tahun 2010</td>
-        </tbody>
-        <tbody>
-          <td>Nomor SK Pendirian</td>
-          <td>:</td>
-          <td>420/9/SK-BPPT/2012</td>
-        </tbody>
-        <tbody>
-          <td class="fw-semibold">e. Pendirian</td>
-          <td>:</td>
-          <td>Tahun 2010</td>
-        </tbody>
-        <tbody>
-          <td class="fw-semibold">e. Pendirian</td>
-          <td>:</td>
-          <td>Tahun 2010</td>
-        </tbody>
-        <tbody>
-          <td class="fw-semibold">e. Pendirian</td>
-          <td>:</td>
-          <td>Tahun 2010</td>
+          <tr>
+            <td class="fw-semibold">a. Nama Sekolah</td>
+            <td>:</td>
+            <td>SMK Negeri 4 Tasikmalaya</td>
+          </tr>
+          <tr>
+            <td class="fw-semibold">b. NPSN</td>
+            <td>:</td>
+            <td>20276063</td>
+          </tr>
+          <tr>
+            <td class="fw-semibold">c. Nomor Statistik Sekolah</td>
+            <td>:</td>
+            <td>401327810004</td>
+          </tr>
+          <tr>
+            <td class="fw-semibold">d. Alamat</td>
+            <td>:</td>
+            <td>Jl.Depok RT 02 RW 05, Kel.Sukamenak, Kec.Purbaratu, Kota Tasikmalaya, Provinsi Jawa Barat</td>
+          </tr>
+          <tr>
+            <td class="fw-semibold">e. Tahun Pendirian</td>
+            <td>:</td>
+          </tr>
+          <tr>
+            <td class="ms-3">Nomor SK Pendirian</td>
+            <td>:</td>
+            <td>420/9/SK-BPPT/2012</td>
+          </tr>
+          <tr>
+            <td>Tanggal</td>
+            <td>:</td>
+            <td>06 Februari 2012</td>
+          </tr>
+          <tr>
+            <td class="fw-semibold">f. Lahan/Bangunan</td>
+            <td>:</td>
+          </tr>
+          <tr>
+            <td>Kepemilikan</td>
+            <td>:</td>
+            <td>Tahun 2010</td>
+          </tr>
+          <tr>
+            <td>Status Tanah</td>
+            <td>:</td>
+            <td>Sertifikat Hak Milik</td>
+          </tr>
+          <tr>
+            <td>Luas Tanah</td>
+            <td>:</td>
+            <td>13.229 m2</td>
+          </tr>
+          <tr>
+            <td>Status Bangunan</td>
+            <td>:</td>
+            <td>Milik Pemerintah</td>
+          </tr>
+          <tr>
+            <td>Luas Bangunan</td>
+            <td>:</td>
+            <td>2400 m2</td>
+          </tr>
+          <tr>
+            <td>Nomor Rekening</td>
+            <td>:</td>
+            <td>010001001048306</td>
+          </tr>
+          <tr>
+            <td>Nama Bank</td>
+            <td>:</td>
+            <td>BRI Cabang Tasikmalaya</td>
+          </tr>
         </tbody>
       </table>
       <!-- </div> -->
     </div>
   </div>
 </template>
+
+<script setup>
+useHead({
+  title: 'Identitas',
+  meta: [
+    {
+      name: 'description',
+      content: 'halaman identitas',
+    },
+  ],
+});
+</script>
 
 <style scoped>
 .container-fluid {
