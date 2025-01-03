@@ -101,13 +101,6 @@
 
           <li class="nav-item">
             <nuxt-link
-              to="/Prestasi"
-              class="nav-link"
-              >Prestasi</nuxt-link
-            >
-          </li>
-          <li class="nav-item">
-            <nuxt-link
               to="/galeri"
               class="nav-link"
               >Galeri</nuxt-link
